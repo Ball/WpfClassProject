@@ -18,3 +18,11 @@ Start of Wpf Tunes: a Wpf based iTunes clone with actual, but limited, functiona
 This week's goal is to explore basic controls and layout types.
 The assignment is to replicate the layout of WpfTunes as pictured in the file
 AssignmentReferences\Week1Goal.png
+
+Week 3
+---------------------------------------------------------
+Will it Blend?
+This week's goal is to bind the UI elements to a back-end data structure.
+If you've used blend before, I recommend trying it with a xaml initialized data context.
+Set an instance of ShellDesignData to the Shell's DataContext and bind to get WPF to match
+the Blend screenshot in AssignmentReferences\Week2Goal.png

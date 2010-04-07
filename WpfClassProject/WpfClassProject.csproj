@@ -68,6 +68,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataContexts\DesignTimeContexts\CurrentSongDesignData.cs" />
+    <Compile Include="DataContexts\DesignTimeContexts\PlaylistDesignData.cs" />
+    <Compile Include="DataContexts\DesignTimeContexts\ShellDesignData.cs" />
+    <Compile Include="DataContexts\DesignTimeContexts\SongDesignData.cs" />
+    <Compile Include="DataContexts\IMediaPlayer.cs" />
+    <Compile Include="DataContexts\IPlaylist.cs" />
+    <Compile Include="DataContexts\IShellDataContext.cs" />
+    <Compile Include="DataContexts\ISong.cs" />
+    <Compile Include="DataContexts\PlayStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -93,6 +102,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="AssignmentReferences\Week1Goal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AssignmentReferences\Week2Goal.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
