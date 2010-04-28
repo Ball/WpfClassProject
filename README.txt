@@ -38,3 +38,21 @@ This week's goal is to make the application look good!
 * The main frame needs to have a subtle gradient
 * The Playlist needs to be BLUE
 See a screenshot in AssignmentReferences\Week4Goal.png
+
+Week 5
+----------------------------------------------------------
+It's about control
+This week you'll create a user control that encapsulates the playlist and
+the scrubber.  It will have the following dependency properties
+  IMediaPlayer CurrentSong
+  IPlaylist CurrentPlaylist
+In addition, the playbutton will by a subclass of button with the following properties
+  PlayStatus Status
+  ICommand PlayCommand
+  ICommand PauseCommand
+  ICommand StopCommand
+The PlayButton will display the correct symbol based on the associated Status (show play by default)
+When clicked:
+  If you can play, play
+  If you can pause, pause
+  If you can stop, stop
