@@ -29,6 +29,7 @@ namespace WpfClassProject.DataContexts.DesignTimeContexts
                 }
             }
         }
+        public IPlaylist CurrentPlaylist { get; private set; }
         public string SongTitle { get; private set; }
         public PlayStatus Status { get; private set; }
         public TimeSpan Length { get; private set; }
@@ -42,7 +43,7 @@ namespace WpfClassProject.DataContexts.DesignTimeContexts
             }
         }
 
-        public void PlaySong(ISong song)
+        public void PlaySong(ISong song, IPlaylist currentPlaylist)
         {
             throw new NotImplementedException();
         }
@@ -53,6 +54,16 @@ namespace WpfClassProject.DataContexts.DesignTimeContexts
         }
 
         public void Stop()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Next()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Back()
         {
             throw new NotImplementedException();
         }

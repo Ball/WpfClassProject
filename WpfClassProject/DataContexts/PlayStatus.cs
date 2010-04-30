@@ -1,6 +1,6 @@
 namespace WpfClassProject.DataContexts
 {
-    enum PlayStatus
+    public enum PlayStatus
     {
         Playing,
         Paused,

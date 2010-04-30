@@ -76,6 +76,7 @@
     <Compile Include="DataContexts\IPlaylist.cs" />
     <Compile Include="DataContexts\IShellDataContext.cs" />
     <Compile Include="DataContexts\ISong.cs" />
+    <Compile Include="DataContexts\PlayCommandParameter.cs" />
     <Compile Include="DataContexts\PlayStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -108,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="AssignmentReferences\Week4Goal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AssignmentReferences\PlayerControl.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -2,7 +2,7 @@ using System.Collections.ObjectModel;
 
 namespace WpfClassProject.DataContexts
 {
-    interface IPlaylist
+    public interface IPlaylist
     {
         string Name { get; }
         ObservableCollection<ISong> Songs { get; }

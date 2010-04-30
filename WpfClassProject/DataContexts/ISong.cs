@@ -1,6 +1,6 @@
 namespace WpfClassProject.DataContexts
 {
-    interface ISong
+    public interface ISong
     {
         string Artist { get; }
         string Album { get; }
