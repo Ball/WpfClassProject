@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfClassProject.DataContexts.RuntimeContexts;
 
 namespace WpfClassProject
 {
@@ -22,6 +23,7 @@ namespace WpfClassProject
         public Shell()
         {
             InitializeComponent();
+            DataContext = new ShellContext();
         }
     }
 }

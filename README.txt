@@ -91,3 +91,27 @@ There where some changes to the data contexts directory, so be sure to update.
                 </MultiBinding>
             </Controls:PlayerControl.PlayCommandParameter>
         </Controls:PlayerControl>
+
+Week 6
+---------------------------------------------------------
+A command performance
+This is the first time I'm shipping a broken build.  I need your commands to make it run.
+1) modify your shell to use the new runtime context in code behind.
+2) Write the following commands in the "Commands" namespace,
+  PlayCommand
+    CanExecute if we are paused on the current list
+               or we are stopped
+  PauseCommand
+    CanExecute if we are playing on the current list
+  StopCommand
+    CanExecute if we are playing and not on the current list
+  NextCommand
+    CanExecute is true
+  BackCommand
+    CanExecute is true
+3) Add an event handler when double clicking the listview of songs.
+   It should always start playing.  
+Want to get the player to play?
+  It generates playlists from directories in the current build dir.
+  It genereates songs from the mp3 files in those dirs.
+  Song info is faked.

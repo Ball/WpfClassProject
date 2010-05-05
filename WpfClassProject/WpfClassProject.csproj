@@ -78,6 +78,10 @@
     <Compile Include="DataContexts\ISong.cs" />
     <Compile Include="DataContexts\PlayCommandParameter.cs" />
     <Compile Include="DataContexts\PlayStatus.cs" />
+    <Compile Include="DataContexts\RuntimeContexts\ShellContext.cs" />
+    <Compile Include="DataContexts\RuntimeContexts\WpfTunesPlayer.cs" />
+    <Compile Include="DataContexts\RuntimeContexts\Playlist.cs" />
+    <Compile Include="DataContexts\RuntimeContexts\Song.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
